@@ -47,6 +47,7 @@ function AddTodo() {
           placeholder="Enter Your Todo"
           value={inputValue}
           onChange={handleChange}
+          style={{color:'white'}}
         />
       </div>
       <div>
