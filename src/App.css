@@ -1,0 +1,126 @@
+/* Navbar Styling */
+.navbar {
+    width: 100%; /* Full-width */
+    border-radius: 15px; /* Rounded corners */
+    background-color: #F28482; /* Background color */
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px auto; /* Adds spacing from top */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+/* Button Styling */
+.dashboard-btn {
+    font-size: 14px; /* Smaller size */
+    padding: 6px 12px; /* Adjust padding */
+    background-color: #ffffff;
+    color: #F28482;
+    border: 1px solid #ffffff;
+    border-radius: 8px; /* Rounded corners */
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.dashboard-btn:hover {
+    background-color: #F28482;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #F28482, #84A59D);
+    text-align: center;
+}
+
+/* Welcome Text Animation */
+.dashboard-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+/* Animated Button */
+.dashboard-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dashboard-button:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.dashboard-button:active {
+    transform: scale(0.95);
+}
+
+/* Adjusted Dashboard Button */
+.dashboard-btn {
+    width: 100%;
+    max-width: 250px;
+    background-color: #84A59D;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+/* Dashboard Subtitle */
+.dashboard-subtitle {
+    font-size: 1.2rem;
+    color: white;
+    max-width: 600px;
+    text-align: center;
+    margin: 10px auto;
+    opacity: 0.9;
+    line-height: 1.5;
+}
+
+
+/* Hover and Click Effects */
+.dashboard-btn:hover {
+    background-color: #6C8B84;
+}
+
+.dashboard-btn:active {
+    transform: scale(0.95);
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+    .dashboard-btn {
+        width: 60%;
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .dashboard-btn {
+        width: 200px;
+    }
+}
